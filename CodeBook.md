@@ -11,7 +11,7 @@ Original dataset is available here: https://d396qusza40orc.cloudfront.net/getdat
 - combined data was then subsetted: only activity label, subject id and columns containing "mean()" and "std()" were selected.
 - the resulting set was aggregated calulating average of each variable for each activity and each subject.
 
-The original script is located in **run_analysis.R**.
+The original script is located here: **run_analysis.R**.
 
 ## The resulting set contains following variables:
 - Subject
