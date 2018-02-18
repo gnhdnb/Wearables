@@ -1,17 +1,17 @@
 # Code Book
-This document describes 
+This document describes data transformations performed in the **Getting and Cleaning Data** course project.
 
 The source data used is the Human Activity Recognition Using Smartphones Dataset.
 Original dataset is available here: https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip
 
 ## Several operations was performed on the original data:
-- feature vectors was combined with corresponding activity ids and subject ids in both test and training sets
-- activity ids was replaced with corresponding labels in both test and training sets
-- training set and test set were combined into one set
-- combined data was then subsetted: only activity label, subject id and columns containing "mean()" and "std()" were selected
-- the resulting set was aggregated calulating average of each variable for each activity and each subject
+- feature vectors was combined with corresponding activity ids and subject ids in both test and training sets.
+- activity ids was replaced with corresponding labels in both test and training sets.
+- training set and test set were combined into one set.
+- combined data was then subsetted: only activity label, subject id and columns containing "mean()" and "std()" were selected.
+- the resulting set was aggregated calulating average of each variable for each activity and each subject.
 
-**The original code is located in run_analysis.R**
+The original script is located in **run_analysis.R**.
 
 ## The resulting set contains following variables:
 - Subject
